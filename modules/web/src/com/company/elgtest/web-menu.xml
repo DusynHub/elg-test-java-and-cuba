@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-elgtest" insertBefore="administration" caption="mainMsg://menu_config.application-elgtest">
+        <item screen="elgtest_Request.browse"
+              caption="mainMsg://menu_config.elgtest_Request.browse"/>
+        <item screen="elgtest_Customer.browse"
+              caption="mainMsg://menu_config.elgtest_Customer.browse"/>
+        <item screen="elgtest_Product.browse"
+              caption="mainMsg://menu_config.elgtest_Product.browse"/>
+        <item screen="elgtest_Supplier.browse"
+              caption="mainMsg://menu_config.elgtest_Supplier.browse"/>
+    </menu>
+</menu-config>
